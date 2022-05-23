@@ -1,0 +1,88 @@
+.feature_info{
+    position: absolute;
+    left: 144.96px;
+    right: 719.87px;
+    top: 299.02px;
+    bottom: 98.67px;
+
+    background: #FFF6D4;
+    border-radius: 50px;
+}
+.feature_desc{
+    position: absolute;
+    left: 55.8px;
+    right: 39.8px;
+    top: 35.45px;
+    bottom: 373.77px;
+
+    /* 20 medium */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    /* Text */
+
+    color: #23221F;
+
+    opacity: 0.7;
+}
+.feature-about_list{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.feature-intro_item{
+    width: 703px;
+    height: 36px;
+
+    /* 24 bold */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    /* Text */
+
+    color: #23221F;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.book-tickets{
+    position: absolute;
+    left: 1126.27px;
+    right: 152.19px;
+    top: 299.27px;
+    bottom: 98.67px;
+
+    background: #FFF6D4;
+    border-radius: 50px;
+}
+.button{
+    position: absolute;
+    width: 398px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+}

@@ -16,7 +16,8 @@ a{
     box-shadow: 0px 4px 35px rgb(162 58 0 / 75%);
     border-bottom-right-radius: 1700px 50px;
     border-bottom-left-radius: 1700px 50px;
-
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
 }
 .header-logo{
     position: absolute;
@@ -35,58 +36,115 @@ a{
 .menu-link{
     font-family: "Montserrat",sans-serif;
     font-size: 18px;
-}
+    color: #FFFFFF;
 
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.menu-item-set{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 24px;
+    gap: 10px;
+    
+    width: 144px;
+    height: 42px;
+    
+    /* W */
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 33px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.menu-link-set{
+    width: 96px;
+height: 22px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* W */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
 .frame-menu {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 80px;
-    
-    position: absolute;
-    width: 541px;
-    height: 42px;
-    left: 703px;
-    top: 29px;    
 }
-
-.frame-phone{
+.menu-item{
+    width: 96px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 24px;
+    flex: none;
+}
+.frame-phone {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 8px;
-    
-    position: absolute;
     width: 137px;
-    height: 32px;
-    left: 1456px;
+    height: 37px;
+    margin-left: 10px;
     top: 34px;
 }
-.icon-phone{
+.icon-phone {
+    background: transparent;
     position: absolute;
-    left: 25%;
     right: 25%;
     top: 25%;
     bottom: 25%;
-
-    background: #FFFFFF;
+    left: 642px;
+}
+.fa-icon-phone{
+    flex: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    padding: 0px;
+    gap: 8px;
+    width: 32px;
+    height: 32px;  
 }
 .phone{
     width: 97px;
     height: 20px;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    
     color: #FFFFFF;
-    
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-left: 10px;
 }
