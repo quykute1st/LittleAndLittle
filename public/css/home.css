@@ -1,3 +1,33 @@
+.frame{
+position: absolute;
+width: 1920px;
+height: 1104px;
+left: 0px;
+top: 0px;
+}
+
+.Lisa_Arnold_Lay_Do_F2 {
+position: absolute;
+width: 488px;
+display: overlay;
+height: 510px;
+left: -165px;
+top: 528px;
+
+background: url(/images/Lisa_Arnold_Lay_Do_F2.png);
+}
+
+.image2{
+position: absolute;
+left: 10.42%;
+right: 80.16%;
+top: 14.22%;
+bottom: 72.64%;
+
+background: url(/images/image2.png);
+}
+
+
 .feature_info{
     position: absolute;
     left: 144.96px;
@@ -36,27 +66,28 @@
     margin-left: 150px;
 }
 .feature-intro_item{
+
     width: 703px;
     height: 36px;
-
+    
     /* 24 bold */
-
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     /* identical to box height, or 150% */
-
-
+    
+    
     /* Text */
-
+    
     color: #23221F;
-
+    
     opacity: 0.8;
-
+    
     /* Inside auto layout */
-
+    
     flex: none;
     order: 1;
     flex-grow: 0;
